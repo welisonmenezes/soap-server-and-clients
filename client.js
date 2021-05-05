@@ -20,6 +20,7 @@ function isEntryValid(data) {
     return true;
 }
 
+console.log('-c Calculdora\n-v Validar CPF\n-h Ajuda\n-x Sair\n');
 
 createClient('http://localhost:8888/', function(err, client) {
     rl.setPrompt('Qual operação deseja executar? ');

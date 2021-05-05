@@ -4,9 +4,7 @@ client = zeep.Client(wsdl='http://127.0.0.1:8888')
 
 
 def isentryvalid(data):
-    try:
-        data[2]
-    except:
+    if (len(data) < 3):
         return False
 
     if not data[0].isnumeric() or not data[1].isnumeric():

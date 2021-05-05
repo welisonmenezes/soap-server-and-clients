@@ -50,7 +50,7 @@ while(true) {
     } else if ($user_action == "-x") {
         break;
     } else {
-        echo("\nOpção inválida. Digite -h para ajuda.\n");
+        echo("\nOpção inválida. Digite -h para ajuda.\n\n");
     }
 }
 ?>
